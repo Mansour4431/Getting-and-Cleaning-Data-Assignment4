@@ -21,7 +21,7 @@ The run_analysis.R script should be run on the [data] (https://d396qusza40orc.cl
 
 
 ### Repository Information
-This repository contains 3 main files:
+This repository contains 4 main files:
 
 
 run_analysis.R - This script is used to build up and perform the analysis on the required sample data.
@@ -30,6 +30,6 @@ tidy.txt - This is the final output from the run_analysis.R script.  It contains
 
 CodeBook.md - Contains the definitions of each of the columns in our generated tidy.txt file.
 
-
+README.md - Corrected args in the read.table() command.
 ### Load the necessary libraries
 library(dplyr)
