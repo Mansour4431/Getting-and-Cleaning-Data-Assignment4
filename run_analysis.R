@@ -128,4 +128,4 @@ We create tidyData as a data set with average for each activity and subject. The
 # output to file "tidy_data.txt"
 tidyData <- aggregate(. ~Subject + Activity, extractedData, mean)
 tidyData <- tidyData[order(tidyData$Subject,tidyData$Activity),]
-write.table(tidyData, file = "Tidy.txt", row.names = FALSE)
+write.table(tidyData, file = "tidy.txt", row.names = FALSE)
